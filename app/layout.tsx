@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My current project",
-  description: "A site to improve skills and test stuffs.",
+  title: "Fetching Movies",
+  description:
+    "A site to improve skills and fetch movie data from a public API, including seachbar and favorite feature.",
 };
 
 export default function RootLayout({
